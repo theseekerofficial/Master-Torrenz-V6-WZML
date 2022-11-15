@@ -200,21 +200,9 @@ def get_readable_message():
                         if EMOJI_THEME is True:
                             msg += f"\n<b>├🌱 Seeders:</b> {download.seeders_num()} | <b>🐌 Leechers:</b> {download.leechers_num()}"
                             msg += f"\n<b>├🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
-                            msg += "\n\n"
-                            msg += f"<b>🌟All Links u want🌟</b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
                         else:
                             msg += f"\n<b>├ Seeders:</b> {download.seeders_num()} | <b>Leechers:</b> {download.leechers_num()}"
                             msg += f"\n<b>├ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
-                            msg += "\n\n"
-                            msg += f"<b>🌟All Links u want🌟</b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
                     except:
                         pass
                 if download.message.chat.type != 'private':
