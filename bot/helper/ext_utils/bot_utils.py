@@ -199,10 +199,8 @@ def get_readable_message():
                     try:
                         if EMOJI_THEME is True:
                             msg += f"\n<b>├🌱 Seeders:</b> {download.seeders_num()} | <b>🐌 Leechers:</b> {download.leechers_num()}"
-                            msg += f"\n<b>├🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                         else:
                             msg += f"\n<b>├ Seeders:</b> {download.seeders_num()} | <b>Leechers:</b> {download.leechers_num()}"
-                            msg += f"\n<b>├ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                     except:
                         pass
                 if download.message.chat.type != 'private':
