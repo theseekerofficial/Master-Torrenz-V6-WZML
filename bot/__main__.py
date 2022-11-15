@@ -156,7 +156,18 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
         else:
             sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        text = f"Not Authorized user, deploy your own mirror bot"
+        text = f'''💠Hey you. Why are u here, You can not use me in Private Message,
+        
+💠Please Join (https://t.me/Master_Torrenz_s_Cave) To use me.
+💠I can do many things. Some of them are 👇
+      ✨Upload any direct link to GDrive (No need Your google drive access, I upload files to my own shared drive)
+      ✨Upload any direct link to Telegram
+      ✨Mirror or Leech any Torrent without SIZE LIMIT 😨
+      ✨Download any YT Video ( All ytdl site supports too )
+      ✨Clone GDrive Files
+      
+💠Join the group and Try😍
+💠For more bots join our channel'''
         if PICS:
             sendPhoto(text, context.bot, update.message, random.choice(PICS), reply_markup)
         else:
