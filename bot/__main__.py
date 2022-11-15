@@ -214,8 +214,15 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://t.me/the_seeker_s_cave'>The_Seeker_s_Cave</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
-Choose a help category:
+<b><a href='https://t.me/Master_Torrenz_s_Cave'>Master Torrenz</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+🌟/mirror - Start mirroring to Google Drive. Send /mirror for more help 
+🌟/leech - Start leeching to Telegram, Use /leech s to select files before leeching 
+🌟/clone - Copy file/folder to Google Drive 
+🌟/ytdl - Mirror yt-dlp supported link. Send /ytdl for more help 
+🌟/leechset - Leech settings 
+
+👀<b><a href='https://ytdl-org.github.io/youtube-dl/supportedsites.html'>YTDL support site list</a></b>
+Choose a help category for all command list:
 '''
 
 help_string_telegraph_user = f'''
