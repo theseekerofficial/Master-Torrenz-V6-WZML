@@ -223,7 +223,7 @@ help_string = '''
 
 👀 <b><a href='https://ytdl-org.github.io/youtube-dl/supportedsites.html'>YTDL support site list</a></b>
 
-Choose a help category for all command list:
+👇Choose a help category for all command list👇
 '''
 
 help_string_telegraph_user = f'''
