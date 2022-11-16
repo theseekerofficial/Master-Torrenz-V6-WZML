@@ -44,7 +44,7 @@ def _mirror_leech(bot, message, isZip=False, extract=False, isQbit=False, isLeec
                 buttons = ButtonMaker()
                 chat_u = CHANNEL_USERNAME.replace("@", "")
                 buttons.buildbutton("👉🏻 CHANNEL LINK 👈🏻", f"https://t.me/{chat_u}")
-                help_msg = f"Dᴇᴀʀ {uname},\nYᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ Bᴏᴛ \n\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ Bᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ."
+                help_msg = f"Dᴇᴀʀ {uname},\n💢𝒀𝒐𝒖 𝑵𝒆𝒆𝒅 𝑻𝒐 𝑱𝒐𝒊𝒏 𝑴𝒚 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆 \n\n💢𝑪𝒍𝒊𝒄𝒌 𝑶𝒏 𝑻𝒉𝒆 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏 𝑻𝒐 𝑱𝒐𝒊𝒏 𝑴𝒚 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍. 𝑱𝒐𝒊𝒏 𝑻𝒉𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝒂𝒏𝒅 𝒄𝒐𝒎𝒆 𝒃𝒂𝒄𝒌"
                 reply_message = sendMarkup(help_msg, bot, message, buttons.build_menu(2))
                 Thread(target=auto_delete_message, args=(bot, message, reply_message)).start()
                 return reply_message
