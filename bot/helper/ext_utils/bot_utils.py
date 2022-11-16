@@ -211,21 +211,21 @@ def get_readable_message():
                             msg += f"\n<b>├❌ Cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                             msg += f"\n<b>╰🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                             msg += "\n\n"
-                            msg += f"<b>🌟All Links u want🌟</b>"
                             msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
+                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
                             msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
+                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/5'>✨Buy Premium</a></b>"
                         else:
                             msg += f'\n<b> Source: </b><a href="https://t.me/c/{chatid}/{download.message.message_id}">{download.message.from_user.first_name}</a> | <b>Id :</b> <code>{download.message.from_user.id}</code>'
                             msg += f"\n<b>├ </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"    
                             msg += f"\n<b>╰ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                             msg += "\n\n"
-                            msg += f"<b>🌟All Links u want🌟</b>"
                             msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
+                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
                             msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
+                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/5'>✨Buy Premium</a></b>"
                     except:
                         pass
                 else:
@@ -234,21 +234,21 @@ def get_readable_message():
                         msg += f"\n<b>├❌ cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                         msg += f"\n<b>╰🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                         msg += "\n\n"
-                        msg += f"<b>🌟All Links u want🌟</b>"
                         msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
+                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
                         msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                        msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
+                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/5'>✨Buy Premium</a></b>"
                     else:
                         msg += f'\n<b>├ User:</b> ️<code>{download.message.from_user.first_name}</code> | <b>Id:</b> <code>{download.message.from_user.id}</code>'
                         msg += f"\n<b>├ cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                         msg += f"\n<b>╰ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                         msg += "\n\n"
-                        msg += f"<b>🌟All Links u want🌟</b>"
                         msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
+                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
                         msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                        msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
+                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/5'>✨Buy Premium</a></b>"
 
             elif download.status() == MirrorStatus.STATUS_SEEDING:
                 if EMOJI_THEME is True:
@@ -310,12 +310,12 @@ def get_readable_message():
             bmsg = f"<b>🖥 CPU:</b> {cpu_percent()}% | <b>💿 FREE:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
             bmsg += f"\n<b>🎮 RAM:</b> {virtual_memory().percent}% | <b>🟢 UPTIME:</b> {get_readable_time(time() - botStartTime)}"
             bmsg += f"\n<b>🔻 DL:</b> {get_readable_file_size(dl_speed)}/s | <b>🔺 UL:</b> {get_readable_file_size(up_speed)}/s"
-            bmsg += f"\n<b>Version 💙:</b><code>Master Torrenz V4.1.2</code>"
+            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.1.2</code>"
         else:
             bmsg = f"<b>CPU:</b> {cpu_percent()}% | <b>FREE:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
             bmsg += f"\n<b>RAM:</b> {virtual_memory().percent}% | <b>UPTIME:</b> {get_readable_time(time() - botStartTime)}"
             bmsg += f"\n<b>DL:</b> {get_readable_file_size(dl_speed)}/s | <b>UL:</b> {get_readable_file_size(up_speed)}/s"
-            bmsg += f"\n<b>Version 💙:</b><code>Master Torrenz V4.1.2</code>"
+            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.1.2</code>"
         
         buttons = ButtonMaker()
         buttons.sbutton("♻️Refresh♻️", "status refresh")
