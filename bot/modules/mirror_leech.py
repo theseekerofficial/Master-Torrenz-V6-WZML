@@ -73,14 +73,14 @@ def _mirror_leech(bot, message, isZip=False, extract=False, isQbit=False, isLeec
     if user_id != OWNER_ID and user_id not in SUDO_USERS and user_id not in PAID_USERS:
         if PAID_SERVICE is True:
             if TOTAL_TASKS_LIMIT == total_task:
-                return sendMessage(f"<b>🔻Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\nBot Total Task Limit : {TOTAL_TASKS_LIMIT}\nTasks Processing : {total_task}\n#total limit exceed </b>\n#Buy Paid Service", bot ,message)
+                return sendMessage(f"<b>🔻Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n🔻Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n🔻Tasks Processing : {total_task}\n#total limit exceed </b>\n#Buy Paid Service", bot ,message)
             if USER_TASKS_LIMIT == get_user_task(user_id):
-                return sendMessage(f"<b>🔻Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\nBot Total Task Limit : {TOTAL_TASKS_LIMIT} \nYour Tasks : {get_user_task(user_id)}\n#user limit exceed</b>\n#Buy Paid Service", bot ,message)
+                return sendMessage(f"<b>🔻Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n🔻Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n🔻Your Tasks : {get_user_task(user_id)}\n#user limit exceed</b>\n#Buy Paid Service", bot ,message)
         else:
             if TOTAL_TASKS_LIMIT == total_task:
-                return sendMessage(f"<b>🔻Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\nBot Total Task Limit : {TOTAL_TASKS_LIMIT}\nTasks Processing : {total_task}\n#total limit exceed </b>", bot ,message)
+                return sendMessage(f"<b>🔻Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n🔻Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n🔻Tasks Processing : {total_task}\n#total limit exceed </b>", bot ,message)
             if USER_TASKS_LIMIT == get_user_task(user_id):
-                return sendMessage(f"<b>🔻Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\nBot Total Task Limit : {TOTAL_TASKS_LIMIT} \nYour Tasks : {get_user_task(user_id)}\n#user limit exceed</b>", bot ,message)
+                return sendMessage(f"<b>🔻Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n🔻Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n🔻Your Tasks : {get_user_task(user_id)}\n#user limit exceed</b>", bot ,message)
 
     if user_id != OWNER_ID and user_id not in SUDO_USERS and user_id not in PAID_USERS:
         time_gap = timegap_check(message)
