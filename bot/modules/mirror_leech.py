@@ -73,14 +73,14 @@ def _mirror_leech(bot, message, isZip=False, extract=False, isQbit=False, isLeec
     if user_id != OWNER_ID and user_id not in SUDO_USERS and user_id not in PAID_USERS:
         if PAID_SERVICE is True:
             if TOTAL_TASKS_LIMIT == total_task:
-                return sendMessage(f"<b>⭕️Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n⭕️<b><a href='https://t.me/Maste_Torrenz_Updates/8'>✨View Normal User Limit✨</a></b>\n⭕️Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n⭕️Tasks Processing : {total_task}\n⭕️#total_limit_exceed </b>\n⭕️#Buy_Master_Torrenz_Premium_to_increase_your_task_limit", bot ,message)
+                return sendMessage(f"<b>⭕️Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n⭕️Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n⭕️Tasks Processing : {total_task}\n⭕️#total_limit_exceed </b>\n⭕️#Buy_Master_Torrenz_Premium_to_increase_your_task_limit", bot ,message)
             if USER_TASKS_LIMIT == get_user_task(user_id):
-                return sendMessage(f"<b>⭕️Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n⭕️<b><a href='https://t.me/Maste_Torrenz_Updates/8'>✨View Normal User Limit✨</a></b>\n⭕️<b>Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n⭕️Your Tasks count: {get_user_task(user_id)}\n⭕️#user_limit_exceed</b>\n⭕️#Buy_Paid_Service", bot ,message)
+                return sendMessage(f"<b>⭕️Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n⭕️<b>Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n⭕️Your Tasks count: {get_user_task(user_id)}\n⭕️#user_limit_exceed</b>\n⭕️#Buy_Paid_Service", bot ,message)
         else:
             if TOTAL_TASKS_LIMIT == total_task:
-                return sendMessage(f"<b>⭕️Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n⭕️<b><a href='https://t.me/Maste_Torrenz_Updates/8'>✨View Normal User Limit✨</a></b>\n⭕️Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n⭕️Tasks Processing : {total_task}\n⭕️#total_limit_exceed </b>\n⭕️#Buy_Master_Torrenz_Premium_to_increase_your_task_limit", bot ,message)
+                return sendMessage(f"<b>⭕️Hey please wait.Master Torrenz processing maximum tasks at this time.Wait until other one task finish.\n⭕️Bot Total Task Limit : {TOTAL_TASKS_LIMIT}\n⭕️Tasks Processing : {total_task}\n⭕️#total_limit_exceed </b>\n⭕️#Buy_Master_Torrenz_Premium_to_increase_your_task_limit", bot ,message)
             if USER_TASKS_LIMIT == get_user_task(user_id):
-                return sendMessage(f"<b>⭕️Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n⭕️<b><a href='https://t.me/Maste_Torrenz_Updates/8'>✨View Normal User Limit✨</a></b>\n⭕️<b>Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n⭕️Your Tasks count: {get_user_task(user_id)}\n⭕️#user_limit_exceed</b>\n⭕️#Buy_Paid_Service", bot ,message)
+                return sendMessage(f"<b>⭕️Hey slow down. You now hit your task limit. Wait until your other two tasks finish.\n⭕️<b>Bot Total Task Limit : {TOTAL_TASKS_LIMIT} \n⭕️Your Tasks count: {get_user_task(user_id)}\n⭕️#user_limit_exceed</b>\n⭕️#Buy_Paid_Service", bot ,message)
 
     if user_id != OWNER_ID and user_id not in SUDO_USERS and user_id not in PAID_USERS:
         time_gap = timegap_check(message)
