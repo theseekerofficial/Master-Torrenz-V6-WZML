@@ -225,7 +225,7 @@ def get_readable_message():
                             msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
                             msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
                             msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/5'>✨Buy Premium</a></b>"
+                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
                     except:
                         pass
                 else:
