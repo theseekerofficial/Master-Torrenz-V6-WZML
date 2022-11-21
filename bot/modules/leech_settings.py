@@ -58,17 +58,17 @@ def getleechinfo(from_user):
 
     button = buttons.build_menu(2)
 
-    text = f'''<u>Leech Settings for <a href='tg://user?id={user_id}'>{name}</a></u>
+    text = f'''<u>🔻Leech Settings for <a href='tg://user?id={user_id}'>{name}</a></u>
     
-• Leech Type : <b>{ltype}</b>
-• Custom Thumbnail : <b>{thumbmsg}</b>
-• Prefix : <b>{prefix}</b>
-• Suffix : <b>{suffix}</b>
-• Caption : <b>{caption}</b>
-• CapFont : <b>{cfont}</b>
-• Remname : <b>{remname}</b>
-• DumpID : <b>{dumpid}</b>
-• User Plan : <b>{uplan}</b>'''
+⚔️ Leech Type : <b>{ltype}</b>
+⚔️ Custom Thumbnail : <b>{thumbmsg}</b>
+⚔️ Prefix : <b>{prefix}</b>
+⚔️ Suffix : <b>{suffix}</b>
+⚔️ Caption : <b>{caption}</b>
+⚔️ CapFont : <b>{cfont}</b>
+⚔️ Remname : <b>{remname}</b>
+⚔️ DumpID : <b>{dumpid}</b>
+⚔️ User Plan : <b>{uplan}</b>'''
     return text, button
 
 def editLeechType(message, query):
