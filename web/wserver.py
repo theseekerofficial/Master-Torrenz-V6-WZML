@@ -1,9 +1,9 @@
 from logging import getLogger, FileHandler, StreamHandler, INFO, basicConfig
-from time import sleep
 from time import sleep, time
 from psutil import boot_time, disk_usage, net_io_counters
 from subprocess import check_output
 from os import path as ospath
+from time import sleep
 from qbittorrentapi import NotFound404Error, Client as qbClient
 from aria2p import API as ariaAPI, Client as ariaClient
 from flask import Flask, request
@@ -777,6 +777,13 @@ def set_priority(id_):
     return list_torrent_contents(id_)
 
 @app.route('/')
+botStartTime = time()
+if ospath.exists('.git'):
+    commit_date = check_output(["git log -1 --date=format:'%y/%m/%d %H:%M' --pretty=format:'%cd'"], shell=True).decode()
+else:
+    commit_date = 'No UPSTREAM_REPO'
+
+@app.route('/status', methods=['GET'])
 botStartTime = time()
 if ospath.exists('.git'):
     commit_date = check_output(["git log -1 --date=format:'%y/%m/%d %H:%M' --pretty=format:'%cd'"], shell=True).decode()
