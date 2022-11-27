@@ -773,20 +773,6 @@ def set_priority(id_):
     return list_torrent_contents(id_)
 
 @app.route('/')
-botStartTime = time()
-if ospath.exists('.git'):
-    commit_date = check_output(["git log -1 --date=format:'%y/%m/%d %H:%M' --pretty=format:'%cd'"], shell=True).decode()
-else:
-    commit_date = 'No UPSTREAM_REPO'
-
-@app.route('/status', methods=['GET'])
-botStartTime = time()
-if ospath.exists('.git'):
-    commit_date = check_output(["git log -1 --date=format:'%y/%m/%d %H:%M' --pretty=format:'%cd'"], shell=True).decode()
-else:
-    commit_date = 'No UPSTREAM_REPO'
-
-@app.route('/status', methods=['GET'])
 def homepage():
     return "<h1>See mirror-with-seeker <a href='https://t.me/the_seeker_s_cave'>@GitHub</a> By <a href='https://t.me/the_seeker_s_cave'>Code With Seeker</a></h1>"
 
