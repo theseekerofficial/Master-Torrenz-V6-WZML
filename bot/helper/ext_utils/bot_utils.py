@@ -211,21 +211,17 @@ def get_readable_message():
                             msg += f"\n<b>├❌ Cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                             msg += f"\n<b>╰🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                             msg += "\n\n"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                            msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                             msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
+                            msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
                         else:
                             msg += f'\n<b> Source: </b><a href="https://t.me/c/{chatid}/{download.message.message_id}">{download.message.from_user.first_name}</a> | <b>Id :</b> <code>{download.message.from_user.id}</code>'
                             msg += f"\n<b>├ </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"    
                             msg += f"\n<b>╰ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                             msg += "\n\n"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                            msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                            msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                             msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
+                            msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
                     except:
                         pass
                 else:
@@ -234,21 +230,17 @@ def get_readable_message():
                         msg += f"\n<b>├❌ cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                         msg += f"\n<b>╰🧿 To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                         msg += "\n\n"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
-                        msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                        msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                         msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
+                        msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
                     else:
                         msg += f'\n<b>├ User:</b> ️<code>{download.message.from_user.first_name}</code> | <b>Id:</b> <code>{download.message.from_user.id}</code>'
                         msg += f"\n<b>├ cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
                         msg += f"\n<b>╰ To Select files:</b> <code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
                         msg += "\n\n"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/166'>📌If u mirror or leech game now.read this right now or get banned</a></b>"
-                        msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Download speed is too slow?</a></b>"
-                        msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
-                        msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/8'>📌Limitations</a></b>"
+                        msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                         msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
+                        msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
 
             elif download.status() == MirrorStatus.STATUS_SEEDING:
                 if EMOJI_THEME is True:
