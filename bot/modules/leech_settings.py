@@ -68,7 +68,10 @@ def getleechinfo(from_user):
 ⚔️ CapFont : <b>{cfont}</b>
 ⚔️ Remname : <b>{remname}</b>
 ⚔️ DumpID : <b>{dumpid}</b>
-⚔️ User Plan : <b>{uplan}</b>'''
+⚔️ User Plan : <b>{uplan}</b>
+⚔️ IMDb Search : Comming Soon
+⚔️ ANi : Comming Soon
+⚔️ Control your profile : Comming Soon'''
     return text, button
 
 def editLeechType(message, query):
