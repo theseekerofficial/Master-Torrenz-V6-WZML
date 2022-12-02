@@ -213,7 +213,7 @@ def get_readable_message():
                             msg += "\n\n"
                             msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                             msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
-                            msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
+                            msg += f"\n<b>⊱✤┅┅┅●(Master Torrenz V4.5)●┅┅┅✤⊰</b>"
                         else:
                             msg += f'\n<b> Source: </b><a href="https://t.me/c/{chatid}/{download.message.message_id}">{download.message.from_user.first_name}</a> | <b>Id :</b> <code>{download.message.from_user.id}</code>'
                             msg += f"\n<b>├ </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"    
@@ -221,7 +221,7 @@ def get_readable_message():
                             msg += "\n\n"
                             msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                             msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
-                            msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
+                            msg += f"\n<b>⊱✤┅┅┅●(Master Torrenz V4.5)●┅┅┅✤⊰</b>"
                     except:
                         pass
                 else:
@@ -232,7 +232,7 @@ def get_readable_message():
                         msg += "\n\n"
                         msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                         msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
-                        msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
+                        msg += f"\n<b>⊱✤┅┅┅●(Master Torrenz V4.5)●┅┅┅✤⊰</b>"
                     else:
                         msg += f'\n<b>├ User:</b> ️<code>{download.message.from_user.first_name}</code> | <b>Id:</b> <code>{download.message.from_user.id}</code>'
                         msg += f"\n<b>├ cansel:</b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
@@ -240,7 +240,7 @@ def get_readable_message():
                         msg += "\n\n"
                         msg += f"\n<b>Use @TSSC_Game_Mirror_Robot for games</b>"
                         msg += f"\n<b><a href='https://t.me/Maste_Torrenz_Updates/9'>✨Buy Premium</a></b>"
-                        msg += f"\n<b>⊱✤┅┅┅●(Masyter Torrenz V4.5)●┅┅┅✤⊰</b>"
+                        msg += f"\n<b>⊱✤┅┅┅●(Master Torrenz V4.5)●┅┅┅✤⊰</b>"
 
             elif download.status() == MirrorStatus.STATUS_SEEDING:
                 if EMOJI_THEME is True:
@@ -302,12 +302,12 @@ def get_readable_message():
             bmsg = f"<b>🖥 CPU:</b> {cpu_percent()}% | <b>💿 FREE:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
             bmsg += f"\n<b>🎮 RAM:</b> {virtual_memory().percent}% | <b>🟢 UPTIME:</b> {get_readable_time(time() - botStartTime)}"
             bmsg += f"\n<b>🔻 DL:</b> {get_readable_file_size(dl_speed)}/s | <b>🔺 UL:</b> {get_readable_file_size(up_speed)}/s"
-            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.1.2</code>"
+            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.5.1</code>"
         else:
             bmsg = f"<b>CPU:</b> {cpu_percent()}% | <b>FREE:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
             bmsg += f"\n<b>RAM:</b> {virtual_memory().percent}% | <b>UPTIME:</b> {get_readable_time(time() - botStartTime)}"
             bmsg += f"\n<b>DL:</b> {get_readable_file_size(dl_speed)}/s | <b>UL:</b> {get_readable_file_size(up_speed)}/s"
-            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.1.2</code>"
+            bmsg += f"\n<b>💙 Version:</b><code>Master Torrenz V4.5.1</code>"
         
         buttons = ButtonMaker()
         buttons.sbutton("♻️Refresh♻️", "status refresh")
